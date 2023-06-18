@@ -1,0 +1,54 @@
+{
+  "Version": "1",
+  "UrlUpdate": "https://paste.anasor.com/paste.php?raw&id=345027",
+  "Feedback": "https://t.me/pudim",
+  "LogoUrl": "https://i.ibb.co/f2TrkS2/487f7b22f68312d2c1bbc93b1aea445b-1686915618243.gif",
+  "FundoUrl": "https://i.ibb.co/z5WNjLK/487f7b22f68312d2c1bbc93b1aea445b-1686882620463.jpg",
+  "ContatoImg": "https://telegra.ph/file/ef4a0d2668af585a39939.png",
+  "ContatoUrl": "https://t.me/nuvempudinficada",
+  "SiteImg": "https://telegra.ph/file/f05adce32454822c5fbe0.png",
+  "SiteUrl": "https://www.speedtest.net/pt",
+  "ApnImg": "https://telegra.ph/file/7c63c649a98dd10535047.png",
+  "LogsImg": "https://telegra.ph/file/55380e49b5b2c94e748cc.png",
+  "Servers": [
+    {
+      "Name": "tim [01] direct",
+      "ServerIP": "104.16.51.111",
+      "ServerPort": "80",
+      "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: lmsk.store[crlf]Expect: 100-Sask[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "SNI": "",
+      "USER": "",
+      "PASS": "",
+      "CheckUser": "",
+      "Info": "Direct"
+    },
+    {
+      "Name": "vivo [02] proxy || front roubada",
+      "ServerIP": "d1gphpzwiqhhvr.cloudfront.net",
+      "ServerPort": "443",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "ProxyIP": "108.139.113.33",
+      "ProxyPort": "80",
+      "SNI": "",
+      "USER": "",
+      "PASS": "",
+      "CheckUser": "http://lmsk.store:5000/checkUser",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "vivo [03] proxy || front roubada",
+      "ServerIP": "d2gwtgwgqhryxo.cloudfront.net",
+      "ServerPort": "443",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "ProxyIP": "108.139.113.33",
+      "ProxyPort": "80",
+      "SNI": "",
+      "USER": "",
+      "PASS": "",
+      "CheckUser": "",
+      "Info": "Proxy"
+    }
+  ]
+}
